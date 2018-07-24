@@ -1,0 +1,16 @@
+<div class="centering">
+  <h1>
+    Contact Component
+  </h1>
+  <ul>
+    <li>
+      <a href="/global-contact" [routerLink]="['/contacts/global-contact']">Local Contact</a>
+    </li>
+    <li>
+      <a href="/local-contact" [routerLink]="['/contacts/local-contact']">Global Contact</a>
+    </li>
+  </ul>
+  <div class="wrapper">
+      <router-outlet></router-outlet>
+  </div>
+</div>
